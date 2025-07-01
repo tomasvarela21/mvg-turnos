@@ -1,17 +1,7 @@
 @import "tailwindcss";
-/* styles/globals.css */
-
-
-
-/* Optional: Your global custom styles */
-body {
-  @apply bg-gray-100 text-gray-800 font-sans;
-}
-
-
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #3f3f3f;
+  --foreground: #000000;
 }
 
 @theme inline {
@@ -20,6 +10,16 @@ body {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+/* styles/globals.css */
+
+
+
+/* Optional: Your global custom styles 
+body {
+  @apply bg-gray-100 text-gray-800 font-sans;
+}
+
+
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -28,13 +28,9 @@ body {
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
 
-/* Hide scrollbar */
+
+/* Hide scrollbar 
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
@@ -42,4 +38,9 @@ body {
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
-
+*/
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}

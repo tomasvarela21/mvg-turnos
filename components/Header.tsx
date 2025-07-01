@@ -14,7 +14,7 @@ export default function Header() {
   const handleLogin = () => router.push("/admin/login");
 
   return (
-    <header className="bg-black text-white px-6 py-4 flex justify-between items-center shadow-md">
+    <header className="bg-red text-white px-6 py-4 flex justify-between items-center shadow-md">
       <div className="flex items-center gap-4">
         {/* Logo opcional, se puede reemplazar cuando lo tengas */}
         <Image src="/logo.png" alt="Mi Viejo Garage" width={40} height={40} />
